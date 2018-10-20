@@ -19,6 +19,10 @@ $blue1: #42b9d0;
 $blue2: #339fd1;
 $gray_blue: #eaf2f4;
 
+body{
+    margin:0;
+}
+
 header {
     background: $gray_blue;
 
@@ -388,6 +392,7 @@ h1 {
         h2 {
             font-size: 32px;
             font-size: 3.2rem;
+            margin-bottom:0;
         }
     }
 }
